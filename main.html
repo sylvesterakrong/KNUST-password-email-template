@@ -1,134 +1,175 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang=""en"">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KNUST password reset</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lexend+Exa:wght@100..900&display=swap" rel="stylesheet">
-    <style type="text/css">
+    <meta charset=""UTF-8"">
+    <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+    <link rel=""preconnect"" href=""https://fonts.googleapis.com"">
+    <link rel=""preconnect"" href=""https://fonts.gstatic.com"" crossorigin>
+    <link href=""https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"" rel=""stylesheet"">
+    <style type=""text/css"">
         body {
             margin: 0;
-            background-color: #cccccc;
-        }
-        table {
-            border-spacing: 0;
-        }
-        td {
             padding: 0;
+            background-color: #DCDCDC;
+            font-family: 'Rubik', sans-serif;
         }
-        img {
-            border: 0;
-        } 
-        .wrapper{
-            width: 100%;
-            table-layout: fixed;
-            background-color: #cccccc;
-            padding-bottom: 60px;
+        .body-card{
+            background-color: #DCDCDC; /*#DCDCDC;#6b2f2f*/
+            height: 855px;
+            width: 430px;
         }
-        .main{
-            background-color: #ffffff;
-            margin: 0 auto;
-            width: 100%;
-            max-width: 600px;
-            border-spacing: 0;
-            font-family:sans-serif, "Lexend Exa";
-        }
-        .header{
+        .container{
+            background-color: #177445;
+            height:1rem; 
+            width: 430px;
             text-align: center;
         }
-        .column {
-            width: 100%;
-            max-width: 100px;
-            display: inline-block;
-            vertical-align: top;
-            align-items: center;
-            padding-top: 30px;
-            text-align: center;
-            padding-left: 15px;
-        }
-        .banner{
+        .card{
+            background-color: #FFFFFF;
+            height: 500px;
+            width: 386px;
+            margin-top: 1px;
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
             text-align: center;
         }
-        .details{
+            /* Heading styles */
+        .heading {
+            font-weight: bold;
+            font-size: 18px;
+            margin-bottom: 202px;
             text-align: center;
-        }
-        .button {
-            text-align: center; 
-            vertical-align: middle;
-            padding-top: 25px;
-            padding-bottom: 35px;
-
-        }
-        .button button {
-            height: 48px;
-            width: 209px;
-            background: rgb(51,255,74);
-            background: rgb(51,255,74); 
-            background: linear-gradient(137deg, rgba(51,255,74,1) 0%, rgba(16,140,20,1) 79%);
-            border-radius:9px;
-            border:none;
-            cursor: pointer;
-            transition: transform 0.3s, background-color 0.3s;
+            padding-bottom: 40px;
         }
     
-        .button button:hover {
-            background-color: #32CD32; /* Change to the desired hover color */
-            transform: scale(1.1); /* Increase size by 10% on hover */
-        }
-        .footer{
+        .details{
+            margin-left: 1rem;
+            margin-right: 1rem;
+            font-size: 13px;
+            padding-bottom: 20px;
             text-align: center;
-            background-color: #D9D9D9;
-            padding-top: 25px;
-            border-top-right-radius: 19px;
-            border-top-left-radius: 19px;
+        }
+        .details2{
+            margin-left: 1rem;
+            margin-right: 1rem;
+            font-size: 13px;
+            color: #777373;
+            text-align: center;
+            padding-top: 10px;
+        }
+        .button1{
+            text-align: center; 
+            vertical-align: center;
+            background: #177445;
+            width: 180px;
+            height: 50px;
+            margin-bottom: 26px;
+            border-radius: 6px;
+            border: none;
+            cursor: pointer;
+            transition: transform 0.3s;
+            color: #ffffff!important;
+            font-size: 16px;
+            text-align: center;
+            line-height: 50px;
+            border: none;
+            margin: 0 auto;
+            font-weight: bold;
+            text-decoration: none; 
+            display: block; 
+        }
+
+        .footer {
+            text-align: center;
+            color: #177445;
+            margin-top: 10px;
+            font-size: 14px;
         }
     </style>
 </head>
 <body>
-    <center class="wrapper">
-        <table class="main" width="100%">
-
-<!--TOP BORDER-->
+    <center>
+        <table class=""body-card"">
+            <!-- Banner -->
             <tr>
-                <td height="8" 
-                style="background: rgb(254,42,210);
-                background: linear-gradient(66deg, rgba(254,42,210,1) 0%, rgba(81,93,219,1) 51%, rgba(35,244,42,1) 95%);">
-                </td>
+                <td align=""center"" style=""background-color: #177445; height: 1rem;""></td>
             </tr>
-<!--Logo section-->
+            <!-- Card with info -->
             <tr>
-                <td class="header">
-                    <table class="column">
+                <td align=""center"">
+                    <table class=""card"">
+                        <!-- Logo -->
                         <tr>
+<<<<<<< HEAD
+                            <td >
+                                <img src=""https://apps.knust.edu.gh/students/assets/images/logo-light.png"" alt=""knust-logo"" width=""50"">
+=======
                             <td>
-                                <a href="https://apps.knust.edu.gh/"><img src="assets/knust_logo.png" alt="knust-logo" width="60"></a>
+                                <a href="https://apps.knust.edu.gh/">
+                                    <img src="https://apps.knust.edu.gh/students/assets/images/logo-light.png" alt="knust-logo" width="60">
+                                </a>
+>>>>>>> d085d87dcf71576b3fd30708b50665dd6bd7234e
                             </td>
+                        </tr>
+                        <!-- Heading -->
+                        <tr>
+                            <td class=""heading"">Student Password Reset</td>
+                        </tr>
+                        <!-- Details -->
+                        <tr>
+                            <tr>
+                                <td class=""details"">Hello " + name + @",</td>
+                            </tr>
+                            <td class=""details"">There was a request to reset your password, kindly click on the button below to reset your password. If this wasn't you kindly ignore this message or delete this message.</td>
+                        </tr>
+                        <!-- Button for the reset -->
+                       <tr>
+                            <td align=""center"">
+                                <a href=""" + callbackUrl + @""" class=""button1"">
+                                    Reset Password
+                                </a>
+                            </td>
+                        </tr>
+                        <!-- Reset detail information -->
+                        <tr>
+                            <td class=""details2""><b>This link will expire after 10 minutes.</b><br> Your new password will apply to all other online student services such as the Student Portal, Thesis Portal, WiFi, Virtual Class and the Student Outlook Mailbox</td>
                         </tr>
                     </table>
                 </td>
-            </tr> 
-<!--banner image-->
+            </tr>
+                <tr>
+                    <td>
+                        <hr style=""width: 8cm; height: 0.1em ;background:#177445;""
+                    /></td>
+                </tr>
+            <!-- Help information -->
             <tr>
+<<<<<<< HEAD
+                <td align=""center"" style=""padding-left: 10px; padding-right: 10px;"">
+                    <table style=""font-size: 12px; text-align: left;"">
+                        <tr>
+                            <td >If you have any issue or concerns, we are here to help.</td>
+                        </tr>
+                        <tr>
+                            <td style=""font-size: 12px; text-align: left; padding-bottom: 7rem;"">Kindly contact us via: <a style=""color: #177445; cursor:pointer;"" href=""https://helpdesk.knust.edu.gh""><b>UITS Helpdesk</b></a></td>
+                        </tr>
+                    </table>
+=======
                 <td class="banner">
-                    <img src="assets/6325247.jpg" alt="banner-img" width="300">
+                    <img src="https://img.freepik.com/free-vector/reset-password-concept-illustration_114360-7896.jpg?w=740&t=st=1712771597~exp=1712772197~hmac=e06e59eb49d3aecd1d86e4835cdec502f81c1f1d753a76f0c5bb04f9a58b53d0" alt="banner-img" width="300">
+>>>>>>> d085d87dcf71576b3fd30708b50665dd6bd7234e
                 </td>
             </tr>
-
-<!--title and details tab-->
+            <!-- Footer -->
             <tr>
-                <td class="details">
-                    <header style="font-weight: bold; font-size:24px;">
-                        forgot your password?
-                    </header>
-                    <p style="font-size: 13;">
-                        Click on the button below to reset your password.<br>
-                        <b>Please take note that the link can be used once and would expire after 10 minutes.</b> 
-                        The password will apply to all other online student services.
-                    </p>
+                <td align=""center"" style=""padding-left: 20px; padding-right: 20px;color: #177445; font-size: 14px;"">
+                    <p>Copyright © 2024 Kwame Nkrumah University Of Science and Technology by UITS</p>
                 </td>
             </tr>
+<<<<<<< HEAD
+=======
 <!--title and details tab-->
             <tr>
                 <td class="button">
@@ -143,9 +184,9 @@
             <tr>
                 <td class="footer">
                     <p>
-                        <a href="#"><img src="assets/youtube.png" width="50px"></a>
-                        <a href="#"><img src="assets/instagram.png" style="margin-left: 20px; margin-right: 20px;" width="40px"></a>
-                        <a href="#"><img src="assets/twitter.png" alt="#" width="40px"></a>
+                        <a href="#"><img src="https://cdn-icons-png.freepik.com/256/1384/1384028.png?uid=R107228003&ga=GA1.1.1916646193.1709500760&" width="52px" style="padding-top:5px;"></a>
+                        <a href="#"><img src="https://cdn-icons-png.freepik.com/256/174/174855.png?uid=R107228003&ga=GA1.1.1916646193.1709500760&" style="margin-left: 20px; margin-right: 20px;" width="40px"></a>
+                        <a href="#"><img src="https://cdn-icons-png.freepik.com/256/5968/5968958.png?uid=R107228003&ga=GA1.1.1916646193.1709500760&" alt="#" width="40px"></a>
                     </p>
                     <p style="font-size: 12px;">
                         Kwame Nkrumah University of Science & Technology, Kumasi, Ghana <br>
@@ -154,7 +195,7 @@
                         Ghana Post GPS Address: AK-385-1973 <br>
                     </p>
                     <p style="font-size: 12px; padding-top: 25px;">
-                        To help ensure that you receive all e-mail messages from the UITS, please add <a href="appsupport@knust.edu.gh">appsupport@knust.edu.gh</a> to your address book or contacts list. Please ignore this email if you didn't request for your credentials.
+                        To help ensure that you receive all e-mail messages from the UITS, please add<a href="appsupport@knust.edu.gh"> appsupport@knust.edu.gh </a>to your address book or contacts list. Please ignore this email if you didn't request for your credentials.
                     </p>
 
 
@@ -179,7 +220,8 @@
 
 
 
+>>>>>>> d085d87dcf71576b3fd30708b50665dd6bd7234e
         </table>
     </center>
 </body>
-</html>
+</html> 
