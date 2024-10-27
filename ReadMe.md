@@ -22,9 +22,8 @@ Customize the template content and styling as needed to match your specific requ
 Test the template by sending a sample password reset email to verify its appearance and functionality.
 Deploy the template to your email service provider or email marketing platform for sending password reset emails to KNUST users.
 
-##### **Screenshots**
 
-###### **Dependencies**
+##### **Dependencies**
 
 None
 
